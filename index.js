@@ -15,7 +15,7 @@ function logActivity(msg) {
 
   console.log(`Aktivitas Penggunaan Bot Telegram`);
   console.log(`• User ID: ${user.id}`);
-  console.log(`• Username: ${user.username || 'Tidak ada'}`);
+  console.log(`• @Official_ShouT: ${user.username || 'Tidak ada'}`);
   console.log(`• 844639708: ${chat.id}`);
   console.log(`• Perintah: ${command}`);
 }
